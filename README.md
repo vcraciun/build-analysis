@@ -10,15 +10,12 @@ Command lines used for build:
 
 * Microsoft Visual C++:
 cl f1.cpp f2.cpp f3.cpp f4.cpp f5.cpp f6.cpp f7.cpp f8.cpp f9.cpp s1.cpp /link /out:result.exe
-<img src=cl.png” raw=true alt="processes called durint the build, with cl.exe” style=“margin-right: 10px;” /img>
 
 * GCC:
 gcc -o result.exe f1.c f2.c f3.c f4.c f5.c f6.c f7.c f8.c f9.c s1.c 
-<img src=gcc.png” raw=true alt="processes called durint the build, with MingW gcc” style=“margin-right: 10px;” /img>
 
 * GO:
 go build -o result.exe
-<img src=go.png” raw=true alt=processes called durint the build, with GO” style=“margin-right: 10px;” /img>
 
 * Microsoft Visual C#:
 csc.exe -out:result.exe s1.cs f1.cs f2.cs f3.cs f4.cs f5.cs f6.cs f7.cs f8.cs f9.cs
